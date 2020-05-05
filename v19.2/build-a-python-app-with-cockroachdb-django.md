@@ -20,7 +20,7 @@ build_for: [cockroachdb, cockroachcloud]
 
 This tutorial shows you how build a simple Python application with CockroachDB and the [Django](https://www.djangoproject.com/) framework.
 
-CockroachDB supports Django versions 2 and 3.
+CockroachDB supports Django versions 2.2 and 3.0.
 
 {% unless site.cockroachcloud %}
 
@@ -31,7 +31,7 @@ CockroachDB supports Django versions 2 and 3.
 {% endunless %}
 
 {{site.data.alerts.callout_info}}
-The example code and instructions on this page use Python 3 and Django 3.
+The example code and instructions on this page use Python 3 and Django 3.0.
 {{site.data.alerts.end}}
 
 ## Step 1. Install Django and the CockroachDB backend for Django
